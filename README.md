@@ -1,5 +1,5 @@
  Scripts for (curve) clustering with Regression Mixtures (polynomial, spline, B-spline, with mixed random effects)
-and the robust EM algorithm. The algorithm simultaneously estimated the model parameters, and the
+and the robust EM algorithm. The algorithm simultaneously estimates the model parameters, and the
  number of mixture components, by a regularized likelihood estimation approach.
  Please cite the following papers and this code when using it:
  - F. Chamroukhi. Unsupervised learning of regression mixture models with unknown number of
