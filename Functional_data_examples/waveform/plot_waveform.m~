@@ -1,0 +1,28 @@
+
+% this script generates input data, makes plots to visualize the classes of
+% the data
+
+load waveform;
+
+x = waveform(:,1:21);
+y = waveform(:,22);
+
+
+[n d]=size(x);
+x0 = x(y==0,:);
+x1 = x(y==1,:);
+x2 = x(y==2,:);
+
+figure(1);
+
+hold on;
+plot(1:d,x0(1:20,:),'r');
+plot(1:d,x1(1:20,:),'g');
+plot(1:d,x2(1:20,:),'y');
+hold off;
+
+
+
+
+
+
